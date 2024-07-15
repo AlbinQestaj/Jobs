@@ -7,8 +7,11 @@
     "node": ">= 20.9 < 21"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.35",
     "@types/jest": "~29.5",
-    "@types/node": "~20",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.14.10",
+    "@types/puppeteer": "^7.0.4",
     "@typescript-eslint/eslint-plugin": "~7.6",
     "@typescript-eslint/parser": "~7.6",
     "eslint": "~8.56",
@@ -36,6 +39,10 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "apify": "^3.2.4",
+    "cheerio": "^1.0.0-rc.12",
+    "mongoose": "^8.5.1",
+    "puppeteer": "^22.13.0",
     "tslib": "~2.6"
   },
   "volta": {
